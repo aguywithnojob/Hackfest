@@ -1,5 +1,5 @@
-def func():
-  print "HELLO WORLD!!"
+def func(msg):
+  print f"{msg}"
   
 if __name__ == '__main__':
-  func()
+  func('HELLO WORLD!!')
