@@ -1,4 +1,5 @@
 def func():
   print "HELLO WORLD!!"
   
-func()
+if __name__ == '__main__':
+  func()
