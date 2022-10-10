@@ -1,3 +1,4 @@
+# Solution to find lenght of longest substring.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
