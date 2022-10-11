@@ -4,6 +4,9 @@ def func(msg):
   
 def display(msg):
   print f'Message=>>>{msg}'
+
+def sum(a,b):
+  print f'{a}+{b}'
   
 if __name__ == '__main__':
   msg = 'HELLO WORLD!!'
