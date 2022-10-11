@@ -6,7 +6,7 @@ def display(msg):
   print f'Message=>>>{msg}'
 
 def sum(a,b):
-  print f'{a}+{b}'
+  return a+b
   
 if __name__ == '__main__':
   msg = 'HELLO WORLD!!'
