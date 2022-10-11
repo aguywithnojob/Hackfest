@@ -1,4 +1,5 @@
 # Solution to find lenght of longest substring.
+# Its leet code problem.
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         n = len(s)
