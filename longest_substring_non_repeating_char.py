@@ -9,7 +9,8 @@ class Solution:
         res = 0
 
         for i in range(n):
-            visited = [0] * 256  
+            visited = [0] * 256 
+            print(i)
 
             for j in range(i, n):
 
