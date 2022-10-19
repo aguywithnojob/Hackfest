@@ -67,7 +67,8 @@ class Solution:
                 carry.add(q)                                                                                                                                                                                               
                 result.append(r)                                                                                                                                                                                           
             else:                                                                                                                                                                                                          
-                result.append(temp)                                                                                                                                                                                        
+                result.append(temp)
+                print(temp)
             i += 1
         if carry:
             result.append(carry.pop())
