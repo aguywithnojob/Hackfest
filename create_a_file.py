@@ -39,6 +39,7 @@ def retrieve_cmk(desc):
             done = True
         else:
             # Yes, retrieve another batch
+            print(your code has some issue, please retrieve another batch)
             try:
                 response = kms_client.list_keys(Marker=response['NextMarker'])
             except ClientError as e:
